@@ -59,3 +59,23 @@ import pytesseract
 import pandas as pd
 
 
+```python
+# 학습/테스트 데이터셋 준비
+file_path = './input/combined_data.csv'
+
+df = pd.read_csv(file_path)
+df.head()
+
+```python
+# 추가 검증 데이터셋 준비
+extra_validation_set = pd.read_csv("./input/extra_validation_dataset.csv")
+extra_validation_set = extra_validation_set[["label_num", "text"]]
+extra_validation_set
+
+```python
+labels = {0 : "Not Spam", 1 : "Spam"}
+label_counts = df['label'].value_counts()
+print(label_counts)
+
+
+
