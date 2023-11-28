@@ -29,7 +29,7 @@ Option A
     link: https://www.kaggle.com/datasets/ozlerhakan/spam-or-not-spam-dataset
 
 
-# 4. Methodology
+# Methodology
 우리는 텍스트들의 집합에서 스팸 여부를 판별하는 모델을 구성해야 합니다.
 
 Naive Bayes는 'Bayes 법칙'에 기반한 분류기 혹은 학습 방법입니다. 각 특징들이 서로 확률적으로 독립하다는 가정이 들어가 분류를 비교적 쉽고 빠르게 할 수 있는 모델입니다.
@@ -42,7 +42,7 @@ Naive Bayes는 'Bayes 법칙'에 기반한 분류기 혹은 학습 방법입니�
 - Text data를 Embedding 하여 모델에 넣을 수 있도록 전처리합니다.
 - 모델에 데이터를 넣고 학습후에 성능을 평가 합니다 (with test dataset, extra validation set)
 
-# 5. Model evaluation & Analysis
+# Model evaluation & Analysis
 
 ```python
 import os
@@ -229,3 +229,4 @@ weighted avg       0.97      0.97      0.97      5171
 
 
 
+# Discussion
