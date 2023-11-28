@@ -45,5 +45,17 @@ Naive Bayes는 'Bayes 법칙'에 기반한 분류기 혹은 학습 방법입니�
 # 5. Model evaluation & Analysis
 
 ```python
+import os
+import re
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+from sklearn import linear_model, naive_bayes, ensemble, tree, svm, model_selection,\
+                    preprocessing, feature_extraction, metrics, base, pipeline
+from joblib import dump, load
+import PIL
+import pytesseract
+import pandas as pd
 
 
