@@ -42,4 +42,5 @@ Naive Bayes는 'Bayes 법칙'에 기반한 분류기 혹은 학습 방법입니�
 - Text data를 Embedding 하여 모델에 넣을 수 있도록 전처리합니다.
 - 모델에 데이터를 넣고 학습후에 성능을 평가 합니다 (with test dataset, extra validation set)
 
+# 5. Model evaluation & Analysis
 
