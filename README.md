@@ -10,13 +10,22 @@
 
 의약생명과학과 한성목 inys7777@gmail.com
 
-# Proposal
+# Index
+#### 1. Proposal
+#### 2. Motivation & Goal
+#### 3. Datasets
+#### 4. Methodology
+#### 5. Model evaluation & Analysis
+
+
+# 1. Proposal
 Option A
 
-# Motivation & Goal
+
+# 2. Motivation & Goal
 하루에도 수십 수백 통씩 밀려드는 이메일 보관함 속에서 스팸 메일과 그렇지 않은 정상 메일을 구별하기 위한 방법을 알아보는 것이 본 프로젝트의 주 목적이다. Naive Bayes Classification을 통해 임의의 메일이 스팸 메일일 확률을 예측하는 데이터셋 기반 Supervised learning 을 진행하고, 도출된 결과값을 바탕으로 모델의 정밀도를 확인해 본다.
 
-# Datasets
+# 3. Datasets
 1. Train / Test datasets
    
    Kaggle에서 Spam Email CSV of 2007 TREC Public Spam Corpus와 Enron-Spam Dataset을 모아둔 데이터 셋을 학습 및 테스트 데이터로 활용했습니다.
