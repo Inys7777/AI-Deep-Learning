@@ -170,7 +170,7 @@ print("Total number of features :", len(vectorizer.get_feature_names_out()))
 print(X.shape)
 ```
 
-Total number of features : 310813
+Total number of features : 310813   
 (83448, 310813)
 
 ```python
@@ -238,7 +238,7 @@ sns.heatmap(cm, annot = True)
 plt.show()
 ```
 
-[[5842   89]
+[[5842   89]   
  [ 205 6382]]
 
 ![image](https://github.com/Inys7777/AI-Deep-Learning/assets/150836586/c2f99f4b-404b-4a73-87e1-5a70f78308df)
@@ -279,24 +279,28 @@ sns.heatmap(cm, annot = True)
 plt.show()
 ```
 
-[[3575   97]
+[[3575   97]    
  [  61 1438]]
 
 ![image](https://github.com/Inys7777/AI-Deep-Learning/assets/150836586/c82964eb-c938-4885-ac9d-b212e01ef60f)
 
 
 + 테스트 데이터로 모델 성능 평가 2 (confusion matrix)
+
+```python
 clf_report = metrics.classification_report(extra_y, extra_predict)
 print(clf_report)
+```
 
-   precision    recall  f1-score   support
-
-           0       0.98      0.97      0.98      3672
-           1       0.94      0.96      0.95      1499
-
-    accuracy                           0.97      5171
-   macro avg       0.96      0.97      0.96      5171
-weighted avg       0.97      0.97      0.97      5171
+|           | Precision | Recall | F1-Score | Support |
+|-----------|-----------|--------|----------|---------|
+| 0         | 0.98      | 0.97   | 0.98     | 3672    |
+| 1         | 0.94      | 0.96   | 0.95     | 1499    |
+|-----------|-----------|--------|----------|---------|
+| Accuracy  |           |        | 0.97     | 5171    |
+|-----------|-----------|--------|----------|---------|
+| Macro Avg | 0.96      | 0.97   | 0.96     | 5171    |
+| Weighted Avg | 0.97    | 0.97   | 0.97     | 5171    |
 
 
 
