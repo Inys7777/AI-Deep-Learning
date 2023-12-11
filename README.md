@@ -66,6 +66,7 @@ from joblib import dump, load
 import PIL
 import pytesseract
 import pandas as pd
+```
 
 
 
