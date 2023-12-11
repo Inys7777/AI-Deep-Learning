@@ -220,7 +220,7 @@ Cross Validation Scores for model MultinomialNB() :
 
 + 테스트 데이터로 모델 예측 및 정확도 산출
 
-```
+```python
 y_test_pred = model.predict(X_test)
 accuracy = np.sum(y_test == y_test_pred) / len(y_test)
 print("Accuracy (Test) : ", accuracy)
@@ -230,7 +230,7 @@ print("Accuracy (Test) : ", accuracy)
 
 + 테스트 데이터로 모델 성능 평가 1 (confusion matrix)
 
-```
+```python
 cm = metrics.confusion_matrix(y_test, y_test_pred)
 print(cm)
 
@@ -246,7 +246,7 @@ plt.show()
 
 + 테스트 데이터로 모델 성능 평가 2 (confusion matrix)
 
-```
+```python
 clf_report = metrics.classification_report(y_test, y_test_pred)
 print(clf_report)
 ```
@@ -262,7 +262,7 @@ weighted avg       0.98      0.98      0.98     12518
 
 + 추가 검증 데이터로 모델 성능 평가
 
-```
+```python
 extra_predict = model.predict(extra_X)
 accuracy = np.sum(extra_y == extra_predict) / len(extra_predict)
 
@@ -271,7 +271,7 @@ print("Accuracy (Extra validation) : ", accuracy)
 
 **Accuracy (Extra validation) :  0.9694449816283117**
 
-```
+```python
 cm = metrics.confusion_matrix(extra_y, extra_predict)
 print(cm)
 
