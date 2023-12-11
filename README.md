@@ -99,10 +99,11 @@ label_counts = df['label'].value_counts()
 print(label_counts)
 ```
 
-label
-1    43910
-0    39538
-Name: count, dtype: int64
+| Label | Count |
+|-------|-------|
+| 1     | 43910 |
+| 0     | 39538 |
+
 
 
 + 스팸 비율 확인
