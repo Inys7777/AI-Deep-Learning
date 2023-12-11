@@ -288,6 +288,7 @@ plt.show()
 + 테스트 데이터로 모델 성능 평가 2 (confusion matrix)
 
 ```python
+
 clf_report = metrics.classification_report(extra_y, extra_predict)
 print(clf_report)
 ```
