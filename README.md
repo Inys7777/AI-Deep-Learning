@@ -72,10 +72,10 @@ import pandas as pd
 
 +학습/테스트 데이터셋 준비
 
-file_path = './input/combined_data.csv'
+```file_path = './input/combined_data.csv'
 
 df = pd.read_csv(file_path)
-df.head()
+df.head()```
 
 ![image](https://github.com/Inys7777/AI-Deep-Learning/assets/150836586/0cbaca90-c12b-4959-a313-e8f6a085d682)
 
