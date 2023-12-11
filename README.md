@@ -70,7 +70,7 @@ import pandas as pd
 
 
 
-+학습/테스트 데이터셋 준비
++ 학습/테스트 데이터셋 준비
 
 ```file_path = './input/combined_data.csv'
 
@@ -83,16 +83,18 @@ df.head()
 
 + 추가 검증 데이터셋 준비
 
-extra_validation_set = pd.read_csv("./input/extra_validation_dataset.csv")
+```extra_validation_set = pd.read_csv("./input/extra_validation_dataset.csv")
 extra_validation_set = extra_validation_set[["label_num", "text"]]
 extra_validation_set
+```
 
 ![image](https://github.com/Inys7777/AI-Deep-Learning/assets/150836586/5310f5d1-fbb9-42b5-9b7a-fcbf9c4a03df)
 
 
-labels = {0 : "Not Spam", 1 : "Spam"}
+```labels = {0 : "Not Spam", 1 : "Spam"}
 label_counts = df['label'].value_counts()
 print(label_counts)
+```
 
 label
 1    43910
