@@ -108,8 +108,10 @@ print(label_counts)
 
 + 스팸 비율 확인
 
+```
 plt.pie(label_counts, labels = labels.values(), autopct = "%.2f%%")
 plt.show()
+```
 
 ![image](https://github.com/Inys7777/AI-Deep-Learning/assets/150836586/9185e62a-fb9b-491b-9b99-20cf7b1add13)
 
