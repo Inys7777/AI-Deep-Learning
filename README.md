@@ -72,7 +72,8 @@ import pandas as pd
 
 + 학습/테스트 데이터셋 준비
 
-```file_path = './input/combined_data.csv'
+```
+file_path = './input/combined_data.csv'
 
 df = pd.read_csv(file_path)
 df.head()
