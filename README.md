@@ -249,16 +249,18 @@ plt.show()
 ```python
 clf_report = metrics.classification_report(y_test, y_test_pred)
 print(clf_report)
-```
+```   
 
-          precision    recall  f1-score   support
+|           | Precision | Recall | F1-Score | Support |
+|-----------|-----------|--------|----------|---------|
+| 0         | 0.97      | 0.98   | 0.98     | 5931    |
+| 1         | 0.99      | 0.97   | 0.98     | 6587    |
+|-----------|-----------|--------|----------|---------|
+| Accuracy  |           |        | 0.98     | 12518   |
+|-----------|-----------|--------|----------|---------|
+| Macro Avg | 0.98      | 0.98   | 0.98     | 12518   |
+| Weighted Avg | 0.98    | 0.98   | 0.98     | 12518   |
 
-           0       0.97      0.98      0.98      5931
-           1       0.99      0.97      0.98      6587
-
-    accuracy                           0.98     12518
-   macro avg       0.98      0.98      0.98     12518
-weighted avg       0.98      0.98      0.98     12518
 
 + 추가 검증 데이터로 모델 성능 평가
 
