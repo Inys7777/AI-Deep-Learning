@@ -308,8 +308,18 @@ print(clf_report)
 
 
 
-# 6. Discussion   
+# 6. Discussion
+테스트 데이터, 추가 검증 데이터 모두에서 정확도, 재현율, F1-score 등의 평가 기준에서 높은 점수가 나왔습니다.
+Methodology에서 예측했던 대로 Naive Bayes 모델은 Spam 메일 filtering에 높은 성능을 보였습니다.
+
+그러나, 해당 데이터 셋이 각각, 2007년(학습, 테스트) 2003년(추가 검증) 등 10~20년전 자료이기 때문에 현대의 스팸 이메일 필터링에 쓰기에는 어려울 수 있다는 판단이 들었습니다.
+조금 더 시간의 여유가 있어 현대의 스팸 이메일 데이터셋을 확보하여 학습 및 검증에 이용할 수 있었다면 좋을 것 같습니다.
+
+만약 이 스팸 모델 분류기를 좀 더 발전 시킨다면 현대의 많은 데이터셋을 확보하고 Naive Bayes 뿐만이 아닌 여러가지 모델을 비교하여 발전 시키고 싶습니다.
 
 # Youtube Link  
 
 # References
+- Train/Test Dataset: https://www.kaggle.com/datasets/purusinghvi/email-spam-classification-dataset
+- Extra validation Dataset: https://www.kaggle.com/datasets/ozlerhakan/spam-or-not-spam-dataset
+- Reference code: https://www.kaggle.com/code/prasadmeesala/spam-email-classification-naivebayes
