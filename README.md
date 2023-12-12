@@ -288,7 +288,7 @@ plt.show()
 ![image](https://github.com/Inys7777/AI-Deep-Learning/assets/150836586/c82964eb-c938-4885-ac9d-b212e01ef60f)
 
 
-+ 테스트 데이터로 모델 성능 평가 2 (confusion matrix)
++ 추가 검증 데이터로 모델 성능 평가 2 (confusion matrix)
 
 ```python
 
