@@ -317,7 +317,8 @@ Methodology에서 예측했던 대로 Naive Bayes 모델은 Spam 메일 filterin
 
 만약 이 스팸 모델 분류기를 좀 더 발전 시킨다면 현대의 많은 데이터셋을 확보하고 Naive Bayes 뿐만이 아닌 여러가지 모델을 비교하여 발전 시키고 싶습니다.
 
-# Youtube Link  
+# Youtube Link   
+https://youtu.be/j-poW_dLjtc   
 
 # References
 - Train/Test Dataset: https://www.kaggle.com/datasets/purusinghvi/email-spam-classification-dataset
